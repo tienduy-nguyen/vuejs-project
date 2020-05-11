@@ -23,6 +23,7 @@ let app = new Vue({
       this.turns.unshift({
         isPlayer: false,
         text: 'Stop game',
+        
       });
     },
     attack: function () {
